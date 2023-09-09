@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.profile {
+    background-color: rgba(224, 218, 218, 0.1);
+    border: 1px solid rgba(37, 35, 35, 0.1);
+}
+.details {
+    background-color: rgba(37, 35, 35, 0.1);
+}
+.profile, .details {
+    padding: 2rem;
+}
+
+.profile img {
+    max-width: 280px;
+    border-radius: 12px;
+    padding-top: 1rem;
+}
+.time-stamp {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 8rem;
+}
+.role {
+    display: flex;
+    align-items: center;
+}
+.details h2 {
+    font-size: 2rem;
+}
+.day {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.logo {
+    height: 30px;
+}
